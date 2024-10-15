@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40951F092CBED7E700E8DCBD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F082CBED7E600E8DCBD /* Login.swift */; };
+		40951F1E2CBEF21400E8DCBD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1A2CBEF21400E8DCBD /* Extensions.swift */; };
+		40951F242CBEF21400E8DCBD /* SafeAreaInsetsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1B2CBEF21400E8DCBD /* SafeAreaInsetsKey.swift */; };
+		40951F252CBEF21400E8DCBD /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1C2CBEF21400E8DCBD /* Country.swift */; };
+		40951F292CBEF21400E8DCBD /* BaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F0E2CBEF21400E8DCBD /* BaseLayout.swift */; };
+		40951F2D2CBEFF7200E8DCBD /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F2C2CBEFF7200E8DCBD /* CustomHeaderView.swift */; };
+		40951F2F2CBF063200E8DCBD /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F2E2CBF063200E8DCBD /* TextInput.swift */; };
+		40951F312CBF07A500E8DCBD /* PasswordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F302CBF07A500E8DCBD /* PasswordInput.swift */; };
+		40951F332CBF09CE00E8DCBD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F322CBF09CE00E8DCBD /* CustomButton.swift */; };
+		40951F352CBF142700E8DCBD /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F342CBF142700E8DCBD /* ForgotPassword.swift */; };
+		40951F372CBF14CA00E8DCBD /* TopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F362CBF14CA00E8DCBD /* TopHeader.swift */; };
+		40951F392CBF14EF00E8DCBD /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F382CBF14EF00E8DCBD /* Signup.swift */; };
+		40951F3B2CBF178500E8DCBD /* GenderSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F3A2CBF178500E8DCBD /* GenderSelectorView.swift */; };
+		40951F3D2CBF1DA600E8DCBD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F3C2CBF1DA600E8DCBD /* Location.swift */; };
+		40951F3F2CBF1DE200E8DCBD /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F3E2CBF1DE200E8DCBD /* DropdownView.swift */; };
+		40951F412CBF207900E8DCBD /* OTPVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F402CBF207900E8DCBD /* OTPVerify.swift */; };
+		40951F432CBF20C000E8DCBD /* OTPInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F422CBF20C000E8DCBD /* OTPInputView.swift */; };
 		40A31FB82C91B193002504A7 /* LibraryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FB72C91B193002504A7 /* LibraryAppApp.swift */; };
 		40A31FBA2C91B193002504A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FB92C91B193002504A7 /* ContentView.swift */; };
 		40A31FBC2C91B194002504A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A31FBB2C91B194002504A7 /* Assets.xcassets */; };
@@ -14,6 +31,7 @@
 		40A31FC92C91B194002504A7 /* LibraryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FC82C91B194002504A7 /* LibraryAppTests.swift */; };
 		40A31FD32C91B194002504A7 /* LibraryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FD22C91B194002504A7 /* LibraryAppUITests.swift */; };
 		40A31FD52C91B194002504A7 /* LibraryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FD42C91B194002504A7 /* LibraryAppUITestsLaunchTests.swift */; };
+		40A3201B2C91BCB0002504A7 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3201A2C91BCB0002504A7 /* Input.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40951F082CBED7E600E8DCBD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		40951F0E2CBEF21400E8DCBD /* BaseLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLayout.swift; sourceTree = "<group>"; };
+		40951F1A2CBEF21400E8DCBD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		40951F1B2CBEF21400E8DCBD /* SafeAreaInsetsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetsKey.swift; sourceTree = "<group>"; };
+		40951F1C2CBEF21400E8DCBD /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		40951F2C2CBEFF7200E8DCBD /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		40951F2E2CBF063200E8DCBD /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		40951F302CBF07A500E8DCBD /* PasswordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInput.swift; sourceTree = "<group>"; };
+		40951F322CBF09CE00E8DCBD /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		40951F342CBF142700E8DCBD /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		40951F362CBF14CA00E8DCBD /* TopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeader.swift; sourceTree = "<group>"; };
+		40951F382CBF14EF00E8DCBD /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		40951F3A2CBF178500E8DCBD /* GenderSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSelectorView.swift; sourceTree = "<group>"; };
+		40951F3C2CBF1DA600E8DCBD /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		40951F3E2CBF1DE200E8DCBD /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		40951F402CBF207900E8DCBD /* OTPVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerify.swift; sourceTree = "<group>"; };
+		40951F422CBF20C000E8DCBD /* OTPInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPInputView.swift; sourceTree = "<group>"; };
 		40A31FB42C91B193002504A7 /* LibraryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A31FB72C91B193002504A7 /* LibraryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAppApp.swift; sourceTree = "<group>"; };
 		40A31FB92C91B193002504A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +79,7 @@
 		40A31FCE2C91B194002504A7 /* LibraryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A31FD22C91B194002504A7 /* LibraryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAppUITests.swift; sourceTree = "<group>"; };
 		40A31FD42C91B194002504A7 /* LibraryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40A3201A2C91BCB0002504A7 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +107,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40951F0F2CBEF21400E8DCBD /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				40951F0E2CBEF21400E8DCBD /* BaseLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		40951F1D2CBEF21400E8DCBD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40951F1A2CBEF21400E8DCBD /* Extensions.swift */,
+				40951F1B2CBEF21400E8DCBD /* SafeAreaInsetsKey.swift */,
+				40951F1C2CBEF21400E8DCBD /* Country.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		40951F2B2CBEFF6A00E8DCBD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				40951F422CBF20C000E8DCBD /* OTPInputView.swift */,
+				40951F3E2CBF1DE200E8DCBD /* DropdownView.swift */,
+				40951F3A2CBF178500E8DCBD /* GenderSelectorView.swift */,
+				40951F2C2CBEFF7200E8DCBD /* CustomHeaderView.swift */,
+				40951F2E2CBF063200E8DCBD /* TextInput.swift */,
+				40951F302CBF07A500E8DCBD /* PasswordInput.swift */,
+				40951F322CBF09CE00E8DCBD /* CustomButton.swift */,
+				40951F362CBF14CA00E8DCBD /* TopHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		40A31FAB2C91B193002504A7 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +163,19 @@
 		40A31FB62C91B193002504A7 /* LibraryApp */ = {
 			isa = PBXGroup;
 			children = (
+				40951F2B2CBEFF6A00E8DCBD /* Components */,
+				40951F0F2CBEF21400E8DCBD /* Layout */,
+				40951F1D2CBEF21400E8DCBD /* Helpers */,
 				40A31FB72C91B193002504A7 /* LibraryAppApp.swift */,
 				40A31FB92C91B193002504A7 /* ContentView.swift */,
+				40A3201A2C91BCB0002504A7 /* Input.swift */,
 				40A31FBB2C91B194002504A7 /* Assets.xcassets */,
 				40A31FBD2C91B194002504A7 /* Preview Content */,
+				40951F082CBED7E600E8DCBD /* Login.swift */,
+				40951F382CBF14EF00E8DCBD /* Signup.swift */,
+				40951F3C2CBF1DA600E8DCBD /* Location.swift */,
+				40951F402CBF207900E8DCBD /* OTPVerify.swift */,
+				40951F342CBF142700E8DCBD /* ForgotPassword.swift */,
 			);
 			path = LibraryApp;
 			sourceTree = "<group>";
@@ -257,8 +335,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40951F1E2CBEF21400E8DCBD /* Extensions.swift in Sources */,
+				40951F2D2CBEFF7200E8DCBD /* CustomHeaderView.swift in Sources */,
+				40951F242CBEF21400E8DCBD /* SafeAreaInsetsKey.swift in Sources */,
+				40951F352CBF142700E8DCBD /* ForgotPassword.swift in Sources */,
+				40951F3D2CBF1DA600E8DCBD /* Location.swift in Sources */,
+				40951F412CBF207900E8DCBD /* OTPVerify.swift in Sources */,
+				40951F3F2CBF1DE200E8DCBD /* DropdownView.swift in Sources */,
+				40951F3B2CBF178500E8DCBD /* GenderSelectorView.swift in Sources */,
+				40951F2F2CBF063200E8DCBD /* TextInput.swift in Sources */,
+				40951F252CBEF21400E8DCBD /* Country.swift in Sources */,
+				40951F372CBF14CA00E8DCBD /* TopHeader.swift in Sources */,
+				40951F432CBF20C000E8DCBD /* OTPInputView.swift in Sources */,
+				40951F292CBEF21400E8DCBD /* BaseLayout.swift in Sources */,
+				40A3201B2C91BCB0002504A7 /* Input.swift in Sources */,
+				40951F332CBF09CE00E8DCBD /* CustomButton.swift in Sources */,
 				40A31FBA2C91B193002504A7 /* ContentView.swift in Sources */,
 				40A31FB82C91B193002504A7 /* LibraryAppApp.swift in Sources */,
+				40951F392CBF14EF00E8DCBD /* Signup.swift in Sources */,
+				40951F312CBF07A500E8DCBD /* PasswordInput.swift in Sources */,
+				40951F092CBED7E700E8DCBD /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
