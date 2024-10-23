@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4049A3092CC98D18000E52B1 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3082CC98D18000E52B1 /* Modal.swift */; };
 		40951F092CBED7E700E8DCBD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F082CBED7E600E8DCBD /* Login.swift */; };
 		40951F1E2CBEF21400E8DCBD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1A2CBEF21400E8DCBD /* Extensions.swift */; };
 		40951F242CBEF21400E8DCBD /* SafeAreaInsetsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1B2CBEF21400E8DCBD /* SafeAreaInsetsKey.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4049A3082CC98D18000E52B1 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		40951F082CBED7E600E8DCBD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		40951F0E2CBEF21400E8DCBD /* BaseLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLayout.swift; sourceTree = "<group>"; };
 		40951F1A2CBEF21400E8DCBD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				40951F422CBF20C000E8DCBD /* OTPInputView.swift */,
+				4049A3082CC98D18000E52B1 /* Modal.swift */,
 				40951F3E2CBF1DE200E8DCBD /* DropdownView.swift */,
 				40951F3A2CBF178500E8DCBD /* GenderSelectorView.swift */,
 				40951F2C2CBEFF7200E8DCBD /* CustomHeaderView.swift */,
@@ -350,6 +353,7 @@
 				40951F292CBEF21400E8DCBD /* BaseLayout.swift in Sources */,
 				40A3201B2C91BCB0002504A7 /* Input.swift in Sources */,
 				40951F332CBF09CE00E8DCBD /* CustomButton.swift in Sources */,
+				4049A3092CC98D18000E52B1 /* Modal.swift in Sources */,
 				40A31FBA2C91B193002504A7 /* ContentView.swift in Sources */,
 				40A31FB82C91B193002504A7 /* LibraryAppApp.swift in Sources */,
 				40951F392CBF14EF00E8DCBD /* Signup.swift in Sources */,
