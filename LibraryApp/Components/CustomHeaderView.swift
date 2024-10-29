@@ -15,6 +15,7 @@ struct CustomHeaderView: View {
     var rightText: String?
     var onBackAction: (() -> Void)?
     var onRightAction: (() -> Void)?
+    var backgroundColor :Color = .primaryPurple
 
     var body: some View {
         HStack {
@@ -62,7 +63,7 @@ struct CustomHeaderView: View {
             }
         }
         .padding()
-        .background(Color.primaryPurple) // Customize your background color
+        .background(backgroundColor) // Customize your background color
     }
 }
 

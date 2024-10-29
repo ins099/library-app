@@ -6,7 +6,7 @@ struct ForgotPassword: View {
     @State private var isPasswordVisible: Bool = false
 
     var body: some View {
-        BaseLayout{
+        BaseLayout(cgb: true){
             VStack {
                 TopHeader(heading: "Forgot Password", description: "If you have forgotten your password You can reset here.")
                 

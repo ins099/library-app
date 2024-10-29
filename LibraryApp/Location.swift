@@ -6,37 +6,42 @@ struct Location: View {
     @State private var isPasswordVisible: Bool = false
 
     var body: some View {
-        BaseLayout(cgb:true){
-            VStack {
-                
-                TopHeader(heading: "Location", description: "Provide your location")
-                
-                VStack(spacing:18){
-                DropdownView(placeholder: "Select country")
-                DropdownView(placeholder: "Select city")
-             }
-                Spacer()
-                
+        NavigationStack{
+            BaseLayout(cgb:true){
                 VStack {
-                    Spacer()
-                    HStack {
-                        Spacer()
-                        Button(action: {
-                            // Action for the button
-                            print("Floating button tapped")
-                        }) {
-                            Image(systemName: "arrow.right")
-                                .font(.system(size: 24))
-                                .foregroundColor(.white)
-                                .frame(width: 60, height: 60)
-                                .background(Color.primaryPurple)
-                                .clipShape(Circle())
-                                .shadow(color: .gray, radius: 5, x: 0, y: 2)
-                        }
+                    
+                    TopHeader(heading: "Location", description: "Provide your location")
+                    
+                    VStack(spacing:18){
+                        DropdownView(placeholder: "Select country")
+                        DropdownView(placeholder: "Select city")
                     }
+                    Spacer()
+                    
+                    NavigationLink(destination: OTPVerify(), label: {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
+                                Button(action: {
+                                    // Action for the button
+                                    print("Floating button tapped")
+                                }) {
+                                    Image(systemName: "arrow.right")
+                                        .font(.system(size: 24))
+                                        .foregroundColor(.white)
+                                        .frame(width: 60, height: 60)
+                                        .background(Color.primaryPurple)
+                                        .clipShape(Circle())
+                                        .shadow(color: .gray, radius: 5, x: 0, y: 2)
+                                }
+                                .disabled(true)
+                            }
+                        }
+                    })
                 }
+                .padding(30)
             }
-            .padding(30)
         }
     }
 }

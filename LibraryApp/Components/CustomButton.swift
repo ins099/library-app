@@ -11,6 +11,7 @@ struct CustomButton: View {
     
     var title :String = "Title Here"
     var isSecondary :Bool = false
+    var disabled : Bool = false
     
     var onPress: () -> Void?
     
@@ -29,6 +30,7 @@ struct CustomButton: View {
                 .background(RoundedRectangle(cornerRadius: 8).stroke(Color.primaryPurple, lineWidth: isSecondary ? 1: 0))
         }
         .padding(.bottom, 15)
+        .disabled(disabled)
     }
 }
 

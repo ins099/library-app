@@ -13,7 +13,7 @@ struct TopHeader : View {
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
             Text(heading)
-                .font(.largeTitle)
+                .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.primaryPurple)
                 .frame(maxWidth: .infinity, alignment: .leading)

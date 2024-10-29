@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4049A3092CC98D18000E52B1 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3082CC98D18000E52B1 /* Modal.swift */; };
+		4049A30B2CC99613000E52B1 /* YourInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A30A2CC99613000E52B1 /* YourInterest.swift */; };
+		4049A30F2CC99864000E52B1 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A30E2CC99864000E52B1 /* Interest.swift */; };
+		4049A3112CC9A46E000E52B1 /* AccountCreateSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3102CC9A46E000E52B1 /* AccountCreateSuccess.swift */; };
+		4049A3132CC9B08F000E52B1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3122CC9B08F000E52B1 /* MainTabView.swift */; };
+		4049A3152CC9B0F0000E52B1 /* HomeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3142CC9B0F0000E52B1 /* HomeCategoryView.swift */; };
+		4049A3172CC9B107000E52B1 /* LibraryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3162CC9B107000E52B1 /* LibraryListView.swift */; };
+		4049A3192CC9B11C000E52B1 /* BookShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049A3182CC9B11C000E52B1 /* BookShopListView.swift */; };
+		4068F0092CD041120024488B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068F0082CD041120024488B /* CategoryView.swift */; };
+		4068F00B2CD0FB8D0024488B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068F00A2CD0FB8D0024488B /* LibraryView.swift */; };
+		4068F00D2CD0FC8B0024488B /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068F00C2CD0FC8B0024488B /* ListItem.swift */; };
+		4068F00F2CD10BE80024488B /* BookShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068F00E2CD10BE80024488B /* BookShopView.swift */; };
 		40951F092CBED7E700E8DCBD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F082CBED7E600E8DCBD /* Login.swift */; };
 		40951F1E2CBEF21400E8DCBD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1A2CBEF21400E8DCBD /* Extensions.swift */; };
 		40951F242CBEF21400E8DCBD /* SafeAreaInsetsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40951F1B2CBEF21400E8DCBD /* SafeAreaInsetsKey.swift */; };
@@ -33,6 +44,8 @@
 		40A31FD32C91B194002504A7 /* LibraryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FD22C91B194002504A7 /* LibraryAppUITests.swift */; };
 		40A31FD52C91B194002504A7 /* LibraryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A31FD42C91B194002504A7 /* LibraryAppUITestsLaunchTests.swift */; };
 		40A3201B2C91BCB0002504A7 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3201A2C91BCB0002504A7 /* Input.swift */; };
+		40FB9D122CCADE480048D521 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB9D112CCADE480048D521 /* HomeTab.swift */; };
+		40FB9D142CCADEDF0048D521 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB9D132CCADEDF0048D521 /* HomeHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +67,17 @@
 
 /* Begin PBXFileReference section */
 		4049A3082CC98D18000E52B1 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		4049A30A2CC99613000E52B1 /* YourInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourInterest.swift; sourceTree = "<group>"; };
+		4049A30E2CC99864000E52B1 /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		4049A3102CC9A46E000E52B1 /* AccountCreateSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreateSuccess.swift; sourceTree = "<group>"; };
+		4049A3122CC9B08F000E52B1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4049A3142CC9B0F0000E52B1 /* HomeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryView.swift; sourceTree = "<group>"; };
+		4049A3162CC9B107000E52B1 /* LibraryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListView.swift; sourceTree = "<group>"; };
+		4049A3182CC9B11C000E52B1 /* BookShopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShopListView.swift; sourceTree = "<group>"; };
+		4068F0082CD041120024488B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		4068F00A2CD0FB8D0024488B /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		4068F00C2CD0FC8B0024488B /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		4068F00E2CD10BE80024488B /* BookShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShopView.swift; sourceTree = "<group>"; };
 		40951F082CBED7E600E8DCBD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		40951F0E2CBEF21400E8DCBD /* BaseLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLayout.swift; sourceTree = "<group>"; };
 		40951F1A2CBEF21400E8DCBD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -82,6 +106,8 @@
 		40A31FD22C91B194002504A7 /* LibraryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAppUITests.swift; sourceTree = "<group>"; };
 		40A31FD42C91B194002504A7 /* LibraryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		40A3201A2C91BCB0002504A7 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; usesTabs = 0; };
+		40FB9D112CCADE480048D521 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		40FB9D132CCADEDF0048D521 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +158,19 @@
 			children = (
 				40951F422CBF20C000E8DCBD /* OTPInputView.swift */,
 				4049A3082CC98D18000E52B1 /* Modal.swift */,
+				4049A3142CC9B0F0000E52B1 /* HomeCategoryView.swift */,
+				4049A3162CC9B107000E52B1 /* LibraryListView.swift */,
+				4049A3182CC9B11C000E52B1 /* BookShopListView.swift */,
 				40951F3E2CBF1DE200E8DCBD /* DropdownView.swift */,
 				40951F3A2CBF178500E8DCBD /* GenderSelectorView.swift */,
 				40951F2C2CBEFF7200E8DCBD /* CustomHeaderView.swift */,
 				40951F2E2CBF063200E8DCBD /* TextInput.swift */,
 				40951F302CBF07A500E8DCBD /* PasswordInput.swift */,
 				40951F322CBF09CE00E8DCBD /* CustomButton.swift */,
+				40FB9D132CCADEDF0048D521 /* HomeHeader.swift */,
 				40951F362CBF14CA00E8DCBD /* TopHeader.swift */,
+				4049A30E2CC99864000E52B1 /* Interest.swift */,
+				4068F00C2CD0FC8B0024488B /* ListItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,6 +211,13 @@
 				40951F3C2CBF1DA600E8DCBD /* Location.swift */,
 				40951F402CBF207900E8DCBD /* OTPVerify.swift */,
 				40951F342CBF142700E8DCBD /* ForgotPassword.swift */,
+				4049A30A2CC99613000E52B1 /* YourInterest.swift */,
+				4049A3102CC9A46E000E52B1 /* AccountCreateSuccess.swift */,
+				4049A3122CC9B08F000E52B1 /* MainTabView.swift */,
+				40FB9D112CCADE480048D521 /* HomeTab.swift */,
+				4068F0082CD041120024488B /* CategoryView.swift */,
+				4068F00A2CD0FB8D0024488B /* LibraryView.swift */,
+				4068F00E2CD10BE80024488B /* BookShopView.swift */,
 			);
 			path = LibraryApp;
 			sourceTree = "<group>";
@@ -338,27 +377,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4068F0092CD041120024488B /* CategoryView.swift in Sources */,
 				40951F1E2CBEF21400E8DCBD /* Extensions.swift in Sources */,
+				4049A3172CC9B107000E52B1 /* LibraryListView.swift in Sources */,
+				4049A30F2CC99864000E52B1 /* Interest.swift in Sources */,
 				40951F2D2CBEFF7200E8DCBD /* CustomHeaderView.swift in Sources */,
 				40951F242CBEF21400E8DCBD /* SafeAreaInsetsKey.swift in Sources */,
 				40951F352CBF142700E8DCBD /* ForgotPassword.swift in Sources */,
 				40951F3D2CBF1DA600E8DCBD /* Location.swift in Sources */,
 				40951F412CBF207900E8DCBD /* OTPVerify.swift in Sources */,
+				40FB9D122CCADE480048D521 /* HomeTab.swift in Sources */,
 				40951F3F2CBF1DE200E8DCBD /* DropdownView.swift in Sources */,
 				40951F3B2CBF178500E8DCBD /* GenderSelectorView.swift in Sources */,
 				40951F2F2CBF063200E8DCBD /* TextInput.swift in Sources */,
 				40951F252CBEF21400E8DCBD /* Country.swift in Sources */,
+				4068F00F2CD10BE80024488B /* BookShopView.swift in Sources */,
 				40951F372CBF14CA00E8DCBD /* TopHeader.swift in Sources */,
+				4068F00D2CD0FC8B0024488B /* ListItem.swift in Sources */,
 				40951F432CBF20C000E8DCBD /* OTPInputView.swift in Sources */,
 				40951F292CBEF21400E8DCBD /* BaseLayout.swift in Sources */,
 				40A3201B2C91BCB0002504A7 /* Input.swift in Sources */,
+				4049A3112CC9A46E000E52B1 /* AccountCreateSuccess.swift in Sources */,
 				40951F332CBF09CE00E8DCBD /* CustomButton.swift in Sources */,
 				4049A3092CC98D18000E52B1 /* Modal.swift in Sources */,
+				4049A3152CC9B0F0000E52B1 /* HomeCategoryView.swift in Sources */,
 				40A31FBA2C91B193002504A7 /* ContentView.swift in Sources */,
+				4049A3192CC9B11C000E52B1 /* BookShopListView.swift in Sources */,
+				4049A3132CC9B08F000E52B1 /* MainTabView.swift in Sources */,
+				4049A30B2CC99613000E52B1 /* YourInterest.swift in Sources */,
+				4068F00B2CD0FB8D0024488B /* LibraryView.swift in Sources */,
 				40A31FB82C91B193002504A7 /* LibraryAppApp.swift in Sources */,
 				40951F392CBF14EF00E8DCBD /* Signup.swift in Sources */,
 				40951F312CBF07A500E8DCBD /* PasswordInput.swift in Sources */,
 				40951F092CBED7E700E8DCBD /* Login.swift in Sources */,
+				40FB9D142CCADEDF0048D521 /* HomeHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
