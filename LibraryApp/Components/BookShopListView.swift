@@ -19,14 +19,13 @@ struct BookShopListView: View {
                         .foregroundColor(.gray)
                 })
             }
-            .padding([.leading, .trailing], 20)
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 15) {
                     LibraryCardView(name: "Book Shop 1", location: "New York, USA", distance: "30 Min – 4 KM", rating: 4.5)
                     LibraryCardView(name: "Book Shop 2", location: "New York, USA", distance: "30 Min – 4 KM", rating: 4.5)
                 }
-                .padding(20)
+                .padding(.bottom,20)
             }
         }
         .padding(.top, 10)

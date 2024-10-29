@@ -14,13 +14,15 @@ struct HomeTab: View {
                 HomeHeader(title : "Explore", rightIcon: "cart")
                 VStack{
                     ScrollView{
-                    Spacer()
-                    HomeCategoryView()
-                    LibraryListView()
-                    BookShopListView()}
+                        Spacer()
+                        CategoryListBar()
+                        LibraryListView()
+                        BookShopListView()
+                    }
                     
                 }
                 .padding(.top)
+                .padding([.leading, .trailing], 20)
             }
             .navigationBarBackButtonHidden(true)
         }

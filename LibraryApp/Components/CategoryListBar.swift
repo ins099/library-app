@@ -8,7 +8,7 @@ struct Category: Hashable {
 }
 
 
-struct HomeCategoryView: View {
+struct CategoryListBar: View {
     var categories: [Category] = [
         Category(title:"Fantasy", image:"fantasy"),
         Category(title:"Art", image:"art"),
@@ -28,7 +28,7 @@ struct HomeCategoryView: View {
                         .foregroundColor(.gray)
                 })
             }
-            .padding([.leading, .trailing], 20)
+//            .padding([.leading, .trailing], 20)
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
@@ -48,7 +48,7 @@ struct HomeCategoryView: View {
                         )
                     }
                 }
-                .padding([.leading, .trailing], 20)
+//                .padding([.leading, .trailing], 20)
             }
         }
         .padding(.top, 10)
@@ -57,6 +57,6 @@ struct HomeCategoryView: View {
 
 struct Category_Previews: PreviewProvider {
     static var previews: some View {
-        HomeCategoryView()
+        CategoryListBar()
     }
 }
