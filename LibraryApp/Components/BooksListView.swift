@@ -50,7 +50,7 @@ struct BooksListView: View {
     }
 }
 
-private struct BookCardView : View {
+struct BookCardView : View {
     
     var book: BookCardInfo;
     
@@ -97,7 +97,7 @@ private struct BookCardView : View {
     }
 }
 
-private struct BookCatTag: View {
+struct BookCatTag: View {
     var body : some View {
         Text("Category")
             .font(.caption2)
