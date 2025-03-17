@@ -10,9 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var isNight = false
     var body: some View {
-        
-        ZStack{
-        }
+    Login()
     }
 }
 
