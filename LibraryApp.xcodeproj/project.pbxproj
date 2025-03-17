@@ -14,6 +14,9 @@
 		401370852CD28E76003D9C20 /* CreditCardInfoForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401370842CD28E76003D9C20 /* CreditCardInfoForm.swift */; };
 		401370872CD29162003D9C20 /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401370862CD29162003D9C20 /* CardDetails.swift */; };
 		401370892CD299D3003D9C20 /* MyRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401370882CD299D3003D9C20 /* MyRequests.swift */; };
+		4013708B2CD2A2C3003D9C20 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013708A2CD2A2C3003D9C20 /* Favourite.swift */; };
+		4013708D2CD2B954003D9C20 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013708C2CD2B954003D9C20 /* Notifications.swift */; };
+		4013708F2CD2C8DB003D9C20 /* MyBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013708E2CD2C8DB003D9C20 /* MyBooks.swift */; };
 		4023FEBF2CD11036008970B7 /* LibraryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023FEBE2CD11036008970B7 /* LibraryDetailView.swift */; };
 		4023FEC12CD11578008970B7 /* BooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023FEC02CD11578008970B7 /* BooksListView.swift */; };
 		4023FEC32CD115B7008970B7 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023FEC22CD115B7008970B7 /* BooksView.swift */; };
@@ -86,6 +89,9 @@
 		401370842CD28E76003D9C20 /* CreditCardInfoForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardInfoForm.swift; sourceTree = "<group>"; };
 		401370862CD29162003D9C20 /* CardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
 		401370882CD299D3003D9C20 /* MyRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequests.swift; sourceTree = "<group>"; };
+		4013708A2CD2A2C3003D9C20 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
+		4013708C2CD2B954003D9C20 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		4013708E2CD2C8DB003D9C20 /* MyBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooks.swift; sourceTree = "<group>"; };
 		4023FEBE2CD11036008970B7 /* LibraryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDetailView.swift; sourceTree = "<group>"; };
 		4023FEC02CD11578008970B7 /* BooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListView.swift; sourceTree = "<group>"; };
 		4023FEC22CD115B7008970B7 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
@@ -238,9 +244,11 @@
 				40951F082CBED7E600E8DCBD /* Login.swift */,
 				40951F382CBF14EF00E8DCBD /* Signup.swift */,
 				4023FEC22CD115B7008970B7 /* BooksView.swift */,
+				4013708A2CD2A2C3003D9C20 /* Favourite.swift */,
 				40951F3C2CBF1DA600E8DCBD /* Location.swift */,
 				401370862CD29162003D9C20 /* CardDetails.swift */,
 				401370882CD299D3003D9C20 /* MyRequests.swift */,
+				4013708C2CD2B954003D9C20 /* Notifications.swift */,
 				4023FEC62CD125F0008970B7 /* BookDetailView.swift */,
 				401370822CD261A4003D9C20 /* SelectPayment.swift */,
 				4013707C2CD24759003D9C20 /* BookRequestView.swift */,
@@ -255,6 +263,7 @@
 				401370802CD24FEF003D9C20 /* BuyMembership.swift */,
 				4068F00E2CD10BE80024488B /* BookShopView.swift */,
 				4023FEBE2CD11036008970B7 /* LibraryDetailView.swift */,
+				4013708E2CD2C8DB003D9C20 /* MyBooks.swift */,
 				40A31FBB2C91B194002504A7 /* Assets.xcassets */,
 				40A31FBD2C91B194002504A7 /* Preview Content */,
 			);
@@ -434,6 +443,7 @@
 				4023FEC32CD115B7008970B7 /* BooksView.swift in Sources */,
 				40FB9D122CCADE480048D521 /* HomeTab.swift in Sources */,
 				4013707D2CD24759003D9C20 /* BookRequestView.swift in Sources */,
+				4013708D2CD2B954003D9C20 /* Notifications.swift in Sources */,
 				40951F3F2CBF1DE200E8DCBD /* DropdownView.swift in Sources */,
 				40951F3B2CBF178500E8DCBD /* GenderSelectorView.swift in Sources */,
 				40951F2F2CBF063200E8DCBD /* TextInput.swift in Sources */,
@@ -447,6 +457,8 @@
 				40A3201B2C91BCB0002504A7 /* Input.swift in Sources */,
 				4049A3112CC9A46E000E52B1 /* AccountCreateSuccess.swift in Sources */,
 				40951F332CBF09CE00E8DCBD /* CustomButton.swift in Sources */,
+				4013708B2CD2A2C3003D9C20 /* Favourite.swift in Sources */,
+				4013708F2CD2C8DB003D9C20 /* MyBooks.swift in Sources */,
 				4049A3092CC98D18000E52B1 /* Modal.swift in Sources */,
 				4049A3152CC9B0F0000E52B1 /* CategoryListBar.swift in Sources */,
 				40A31FBA2C91B193002504A7 /* ContentView.swift in Sources */,

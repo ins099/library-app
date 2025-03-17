@@ -9,23 +9,27 @@ import SwiftUI
 
 struct BookDetailView: View {
     var body: some View {
-        ZStack{
-            VStack{
-                PageHeader()
-                ScrollView(showsIndicators:false){
-                    BookInfoBox()
-                    BookStats()
-                    BookStoreInfo()
-                    BookDescription()
-                    ReviewList()
-                }.padding()
+        NavigationStack{
+            ZStack(alignment: .bottom){
+                VStack{
+                    PageHeader()
+                    ScrollView(showsIndicators:false){
+                        BookInfoBox()
+                        BookStats()
+                        BookStoreInfo()
+                        BookDescription()
+                        ReviewList()
+                    }.padding()
+                }
+                NavigationLink(destination: BookRequestView(), label:{
+                    CustomButton(title: "Add to cart", disabled: true, onPress: {})
+                        .padding()
+//                        .frame(maxHeight: .infinity, alignment: .bottom)
+                }).frame(alignment: .bottom)
             }
-            
-            CustomButton(title: "Add to cart", onPress: {})
-                .padding()
-                .frame(maxHeight: .infinity, alignment: .bottom)
-        }.ignoresSafeArea()
-        
+            .ignoresSafeArea(.container)
+            .navigationBarHidden(true)
+        }
     }
 }
 

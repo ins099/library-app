@@ -18,19 +18,22 @@ import SwiftUI
 struct MyRequests: View {
     @State var isSelected: Bool = false
     var body: some View {
-        ZStack{
-            VStack{
-                ImageBackgroundHeader(title: "My Request",cgb:true)
-                VStack(spacing: 20){
-                    Request()
-                    Request()
+        NavigationStack{
+            ZStack{
+                VStack{
+                    ImageBackgroundHeader(title: "My Request",cgb:true)
+                    VStack(spacing: 20){
+                        Request()
+                        Request()
+                    }
+                    .padding()
+                    
+                    Spacer()
+                    
                 }
-                .padding()
-                
-                Spacer()
-
-            }
-        }.ignoresSafeArea()
+            }.ignoresSafeArea()
+                .navigationBarHidden(true)
+        }
 
     }
 }

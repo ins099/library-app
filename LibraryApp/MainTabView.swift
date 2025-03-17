@@ -15,19 +15,19 @@ struct MainTabView: View {
                 Text("Explore")
             }
             
-            Text("Favorites")
+            Favourite()
                 .tabItem {
                     Image(systemName: "heart.fill")
                     Text("Favorites")
                 }
             
-            Text("My Books")
+            MyBooks()
                 .tabItem {
                     Image(systemName: "book.fill")
                     Text("My Books")
                 }
             
-            Text("Notifications")
+            Notifications()
                 .tabItem {
                     Image(systemName: "bell.fill")
                     Text("Notifications")

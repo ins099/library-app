@@ -13,7 +13,7 @@ struct HomeTab: View {
             VStack {
                 HomeHeader(title : "Explore", rightIcon: "cart")
                 VStack{
-                    ScrollView{
+                    ScrollView(showsIndicators: false){
                         Spacer()
                         CategoryListBar()
                         LibraryListView()

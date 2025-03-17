@@ -10,38 +10,41 @@ import SwiftUI
 struct SelectPayment: View {
     @State var isSelected: Bool = false
     var body: some View {
-        ZStack{
-            VStack{
-                ImageBackgroundHeader(title: "Select Payment",cgb:true)
+        NavigationStack{
+            ZStack{
                 VStack{
-                    Text("Payment Methods")
-                        .foregroundStyle(.primaryPurple)
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    Text("Select payment method")
-                        .font(.headline)
-                        .foregroundStyle(.gray)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    
-                    VStack(spacing: 15){
-                        PaymentCard(isSelected: true, image: Image("mastercard"))
-                        PaymentCard(label:"Bank Account", isSelected: false,
-                                    image: Image(systemName: "building.columns")
-                        )
-                    }.padding(.vertical)
-                    
-                    NavigationLink(destination:SelectPayment(), label: {
-                        CustomButton(title: "Buy", disabled: true, onPress: {})
-                    })
+                    ImageBackgroundHeader(title: "Select Payment",cgb:true)
+                    VStack{
+                        Text("Payment Methods")
+                            .foregroundStyle(.primaryPurple)
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        Text("Select payment method")
+                            .font(.headline)
+                            .foregroundStyle(.gray)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        
+                        VStack(spacing: 15){
+                            PaymentCard(isSelected: true, image: Image("mastercard"))
+                            PaymentCard(label:"Bank Account", isSelected: false,
+                                        image: Image(systemName: "building.columns")
+                            )
+                        }.padding(.vertical)
+                        
+                        NavigationLink(destination:CardDetails(), label: {
+                            CustomButton(title: "Buy", disabled: true, onPress: {})
+                        })
                         .padding(.top,20)
+                    }
+                    .padding()
+                    
+                    Spacer()
+                    
                 }
-                .padding()
-                
-                Spacer()
-
-            }
-        }.ignoresSafeArea()
+            }.ignoresSafeArea()
+                .navigationBarHidden(true)
+        }
 
     }
 }

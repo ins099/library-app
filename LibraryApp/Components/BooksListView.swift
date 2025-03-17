@@ -41,7 +41,10 @@ struct BooksListView: View {
         
             ScrollView(showsIndicators:false) {
                 ForEach(BookList) { book in
-                    BookCardView(book: book)
+                    NavigationLink(destination: BookDetailView(), label:{
+                        BookCardView(book: book)
+                    }
+                    )
                 }
         }
         
